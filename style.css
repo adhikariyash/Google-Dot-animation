@@ -1,0 +1,52 @@
+
+.dots{
+    
+    display:flex;
+    height: 100vh;
+    width: 100wh;
+    justify-content: center;
+    align-items: center;
+    gap:1.3rem;
+}
+@keyframes loading {
+ 0%,100%{
+    transform: translateY(0px);
+ }
+ 50%{
+    transform: translateY(20px);
+ }
+    
+}
+
+.ballone{
+   width: 22px;
+   height: 22px;
+   background-color: #4285F5;;
+   border-radius: 100px;
+   position: relative;
+   animation:loading 1.8s infinite ease-in-out;
+}
+.balltwo{
+    width: 22px;
+    height: 22px;
+    background-color: #EA4436;
+    border-radius: 100px;
+    animation:loading 1.8s infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+.ballthree{
+    width: 22px;
+    height: 22px;
+    background-color: #FBBD06;
+    border-radius: 100px;
+    animation:loading 1.8s infinite ease-in-out;
+    animation-delay:0.5s;
+}
+.ballfour{
+        width: 22px;
+        height: 22px;
+        background-color: #34A952;
+        border-radius: 100px;
+        animation:loading 1.8s infinite ease-in-out;
+        animation-delay:0.6s;
+}
